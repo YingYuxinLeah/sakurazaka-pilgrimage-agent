@@ -106,6 +106,7 @@ button { cursor: pointer; }
 .route-status { border-radius: 999px; background: var(--surface-soft); color: var(--muted); padding: 8px 12px; font-size: 0.78rem; white-space: nowrap; }
 
 #map { height: clamp(320px, 50vh, 540px); border-radius: 24px; border: 1px solid var(--line); overflow: hidden; background: #eeece8; box-shadow: var(--shadow); z-index: 0; }
+.map-wrap { position: relative; }
 .map-empty { position: absolute; left: 50%; top: 49%; transform: translate(-50%, -50%); width: min(300px, 60%); text-align: center; color: var(--muted); pointer-events: none; z-index: 2; }
 .map-empty-mark { width: 54px; height: 54px; border-radius: 18px; display: grid; place-items: center; margin: 0 auto 12px; background: var(--purple-soft); color: var(--purple); font-size: 1.6rem; }
 .map-empty p { line-height: 1.6; font-size: 0.9rem; }
