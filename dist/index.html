@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#65459a" />
+    <title>坂道巡礼 Agent</title>
+    <meta name="description" content="根据区域、时间、成员偏好与用餐需求规划坂道巡礼路线。" />
+    <link rel="preconnect" href="https://tile.openstreetmap.org" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <h1>坂道巡礼 Agent</h1>
+            <p id="modeLabel">正在连接规划服务</p>
+          </div>
+        </div>
+        <nav class="header-actions" aria-label="页面操作">
+          <button class="text-button" id="aboutButton" type="button">作品说明</button>
+          <button class="text-button" id="resetButton" type="button">新对话</button>
+        </nav>
+      </header>
+
+      <main class="workspace">
+        <section class="chat-panel" aria-label="巡礼规划对话">
+          <div class="memory-bar" id="memoryBar" aria-live="polite">
+            <span>尚未确认规划条件</span>
+          </div>
+
+          <div class="messages" id="messages" aria-live="polite">
+            <article class="message-row assistant-row">
+              <div class="avatar" aria-hidden="true">坂</div>
+              <div class="message assistant-message">
+                <p>告诉我想去的区域、出发地点和可用时间。我会查询巡礼地点、安排用餐，并计算步行路线。</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="quick-replies" id="quickReplies" aria-label="快捷回答">
+            <button type="button" data-message="我想从六本木站出发，在港区巡礼4小时，需要安排用餐，只看中嶋優月相关地点。">体验示例</button>
+            <button type="button" data-message="我想在港区巡礼">只说部分条件</button>
+          </div>
+
+          <form class="composer" id="composer">
+            <label class="sr-only" for="messageInput">描述你的巡礼计划</label>
+            <textarea id="messageInput" rows="1" maxlength="500" placeholder="描述你的巡礼计划……"></textarea>
+            <button id="sendButton" class="send-button" type="submit">发送</button>
+          </form>
+          <p class="composer-note">地点信息来自公开数据快照，出行前请核实营业状态。</p>
+        </section>
+
+        <aside class="result-panel" aria-label="路线地图与行程结果">
+          <div class="result-heading">
+            <div>
+              <span class="eyebrow">路线地图</span>
+              <h2 id="resultTitle">等待规划</h2>
+            </div>
+            <span class="route-status" id="routeStatus">尚无路线</span>
+          </div>
+          <div id="map" role="application" aria-label="可缩放巡礼路线地图"></div>
+          <div class="map-empty" id="mapEmpty">
+            <div class="map-empty-mark">⌖</div>
+            <p>完成地点查询后，这里会显示可缩放地图和步行线路。</p>
+          </div>
+          <div class="route-summary" id="routeSummary" hidden></div>
+          <div class="route-stops" id="routeStops" hidden></div>
+        </aside>
+      </main>
+    </div>
+
+    <dialog id="aboutDialog" class="about-dialog">
+      <form method="dialog" class="dialog-card">
+        <button class="dialog-close" value="close" aria-label="关闭作品说明">×</button>
+        <span class="eyebrow">作品说明</span>
+        <h2>从自然语言需求到可执行路线</h2>
+        <p>大模型负责理解条件与选择工具，后端负责权限校验、地点筛选和路线计算。普通餐厅只有在用户明确同意后才会查询。</p>
+        <dl>
+          <div><dt>巡礼地点</dt><dd>SakuMap 公开地点只读快照</dd></div>
+          <div><dt>普通餐厅</dt><dd>OpenStreetMap / Overpass</dd></div>
+          <div><dt>步行路线</dt><dd>OSRM foot profile</dd></div>
+          <div><dt>地图</dt><dd>Leaflet + OpenStreetMap</dd></div>
+        </dl>
+        <p class="boundary">MVP 暂不处理公共交通、实时营业时间和预约状态；景点停留25分钟、餐厅60分钟为可解释的估算假设。</p>
+      </form>
+    </dialog>
+
+    <template id="loadingTemplate">
+      <article class="message-row assistant-row loading-row">
+        <div class="avatar" aria-hidden="true">坂</div>
+        <div class="message assistant-message loading-message"><i></i><i></i><i></i></div>
+      </article>
+    </template>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
