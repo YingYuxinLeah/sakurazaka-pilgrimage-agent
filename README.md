@@ -1,126 +1,123 @@
-# vinext-starter
+# 櫻坂圣地巡礼路线规划 Agent
 
-A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
+> 面向中国櫻坂46粉丝的多轮路线规划产品：把“想在港区巡礼半天、从六本木站出发、只看某位成员相关地点”等自然语言需求，转化为可执行的地点组合、步行顺序和地图路线。
 
-## Prerequisites
+[在线限量 Demo](https://sakamichi-pilgrimage-agent.yuxinying941.chatgpt.site) · [完整产品案例](docs/product-case-study.md) · [Agent 设计](docs/agent-design.md) · [评测报告](docs/evaluation.md)
 
-- Node.js `>=22.13.0`
-- Portable: Windows, macOS, or Linux; no Bash required
-- Managed Linux: managed Linux runtime with Bash, `flock`, `curl`, `sha256sum`, and GNU `timeout`
-- Git is required only for publishing
+## 30 秒看懂产品
 
-## Sites Lifecycle
+现有圣地地图解决“地点在哪里”，却没有解决“我今天应该怎么走”。用户仍需在圣地地图、Google Maps 与餐厅页面之间反复切换，手动判断距离、时间和顺序。
 
-The Sites initializer copies the shared starter and selects managed-linux only when `SITES_MANAGED_LINUX_CONTAINER=1`; otherwise it selects portable. It saves the selection only in ignored `.sites-runtime/execution-profile.json`. Both profiles copy/configure first, then use the plugin's separate `install-dependencies.mjs` step to measure installation independently. Edit source under `app/` and follow the Sites skill for installation, preview, builds, and publishing.
+本产品将这个过程压缩为一次对话：
 
-Whenever reopening or moving a checkout, run `node <plugin-root>/scripts/configure-execution-profile.mjs` before project commands. Profile changes do not alter tracked source or require reinstalling otherwise-valid dependencies; restart an existing preview to use the new selection. Do not commit or upload `.sites-runtime/`.
+1. 理解区域、起点、可用时长、用餐需求和成员偏好；
+2. 缺少必要信息时集中补问，并在多轮对话中继承已确认条件；
+3. 从限定数据源检索巡礼地点，优先安排巡礼餐厅；
+4. 计算真实步行距离，选择在时间预算内更顺路的地点组合；
+5. 用地图、时间卡片和地点卡片输出可执行方案。
 
-This starter does not use `wrangler.jsonc`.
+## 演示
 
-`install:ci` runs `npm ci` once against the shared lockfile, disables parent-workspace discovery, and includes required dev/optional dependencies despite production/omit settings. Sharp defaults to prebuilt binaries unless explicitly configured otherwise. Do not overlap installers.
+### 产品演示视频
 
-- **Portable:** Preserve host HOME, npm cache, registry, proxy, temporary paths, retry/concurrency settings, and lifecycle-script policy. Use `--prefer-offline --no-audit --no-fund`.
-- **Managed Linux:** Use the existing project-local HOME/cache/tmp setup and Linux install lock, tarball preflight, and timeout. Restore the image-seeded npm cache only when its lockfile hash matches; retain network fallback. Builds keep their existing timeout. These helpers are not invoked by the portable profile.
+> 🎬 YouTube 演示视频待补充。建议展示“信息不完整 → Agent 补问 → 限定成员 → 餐厅授权 → 地图路线 → 中途改条件”的完整多轮流程。
 
-`scripts/sites-env.mjs` preserves the caller's HOME, npm cache, proxy, XDG, and temporary-directory configuration while defaulting Wrangler and Miniflare state to the checkout. If npm reports an unwritable cache, select a writable path with `npm_config_cache` for that install. The `dev` and `start` scripts also keep Wrangler logs inside the checkout. Generated `.sites-runtime/` and `.wrangler/` directories are disposable and ignored by Git.
+<!-- 后续替换为：[观看 3 分钟产品演示](YOUR_YOUTUBE_URL) -->
 
-On portable, `npm run dev` uses `vinext dev` with HMR, starting at port 5173. Vinext records the running server in ignored `.vinext/` state, rejects an ordinary duplicate launch, and recovers stale state after a stopped process; exactly simultaneous starts can race. Pass `--port <port>` or `--hostname <host>` after `npm run dev --` when needed; keep portable previews on loopback.
+### 核心流程 GIF
 
-For browser QA on managed Linux, use `sites-preview start`. The project's dev script runs Vite and accepts the supervisor's `--host 0.0.0.0 --port 4173 --strictPort` arguments. The internal browser uses `http://terminal.local:4173/`; it is not a user-facing URL. The supervisor owns the preview lifecycle. The ignored local profile survives the supervisor's cleared process environment.
+> 🖼️ GIF 待补充。建议使用 12–20 秒静音循环，聚焦从自然语言输入到路线地图生成。
 
-The portable profile simulates ChatGPT sign-in only for loopback development requests. Visit `/signin-with-chatgpt?return_to=/` to sign in as `local_seedy` (`seedy@sites.test`, display name `Seedy`) and `/signout-with-chatgpt?return_to=/` to sign out. The development cookie preserves that identity across server restarts. Mock auth is disabled in the managed-linux profile and is not included in production builds; hosted authentication remains dispatch-owned.
+<!-- 后续将 docs/assets/demo.gif 放入仓库并使用：![核心流程](docs/assets/demo.gif) -->
 
-The Worker uses `vinext/server/fetch-handler`, including Vinext's config-aware image handling. After building, `npm start` runs that Worker locally through Wrangler on `127.0.0.1`, sharing `.wrangler/state` with dev preview and local D1 migrations; it does not deploy the site or simulate sign-in. Use the URL printed by the server. Pass `npm start -- --port <port>` to select a different built-preview port.
+## 产品经理视角：关键决策
 
-Local previews use Miniflare's placeholder `Request.cf` metadata without a network lookup. Set `CLOUDFLARE_CF_FETCH_ENABLED=true` to opt into fetching preview metadata; this setting does not change hosted request metadata.
+| 产品问题 | 决策 | 原因 |
+| --- | --- | --- |
+| Agent 要做多大 | 聚焦“一次巡礼路线规划” | 完整闭环比堆叠无关功能更能验证价值 |
+| 模型与后端如何分工 | 模型理解上下文并选择工具；后端强制权限、数据与次数规则 | 保留自然语言灵活性，同时避免越权与幻觉 |
+| 信息不完整怎么办 | 只补问必要字段；“想限定成员”与“具体成员姓名”分为两个状态 | 减少重复提问，符合真实对话习惯 |
+| 没有巡礼餐厅怎么办 | 先询问用户，得到同意后才检索普通餐厅 | 保护用户意图，明确数据来源差异 |
+| 搜索结果过少怎么办 | 主动建议放宽成员或调整条件 | 让失败状态可恢复，而不是直接结束 |
+| 如何公开体验 | 服务端密钥、匿名哈希限额、每人每日 8 次、全站每日 120 次 | 兼顾作品可体验性与成本控制 |
 
-Local tool usage metrics are disabled by default. Set `WRANGLER_SEND_METRICS=true` to opt in.
+## Agent 如何工作
 
-## Included Shape
-
-- edit site code under `app/`
-- `app/chatgpt-auth.ts` provides optional dispatch-owned ChatGPT sign-in helpers
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/index.ts` reads the D1 binding from the Cloudflare Worker environment
-- `db/schema.ts` starts intentionally empty
-- `@cloudflare/workers-types` provides Worker types; `cloudflare-env.d.ts` declares optional `DB`/`BUCKET` bindings—update these declarations if binding names change
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
-
-## Workspace Auth Headers
-
-Signed-in visitors receive both `oai-authenticated-user-id` and `oai-authenticated-user-email`. Private Sites require every visitor to sign in; public Sites may also have anonymous visitors, for whom neither header is present.
-
-The user ID is stable for the same user on the same Site and different across Sites. Use it as the durable user key; use email and name for display or contact purposes.
-
-SIWC-authenticated workspace sites may also receive `oai-authenticated-user-full-name` when the user's SIWC profile has a non-empty `name` claim. The full-name value is percent-encoded UTF-8 and is accompanied by `oai-authenticated-user-full-name-encoding: percent-encoded-utf-8`.
-
-Treat the full name as optional and fall back to email when it is absent:
-
-```tsx
-import { headers } from "next/headers";
-
-export default async function Home() {
-  const requestHeaders = await headers();
-  const userId = requestHeaders.get("oai-authenticated-user-id");
-  const email = requestHeaders.get("oai-authenticated-user-email");
-  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
-  const fullName =
-    encodedFullName &&
-    requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
-      "percent-encoded-utf-8"
-      ? decodeURIComponent(encodedFullName)
-      : null;
-
-  const displayName = fullName ?? email;
-  // ...
-}
+```mermaid
+flowchart LR
+  U[用户自然语言] --> L[大模型理解上下文]
+  L --> C{条件完整?}
+  C -- 否 --> Q[集中补问缺失信息]
+  Q --> U
+  C -- 是 --> S[检索 SakuMap 地点]
+  S --> M{需要用餐且无巡礼餐厅?}
+  M -- 是 --> P[征得普通餐厅授权]
+  P --> R[计算真实步行矩阵]
+  M -- 否 --> R
+  R --> O[选择时间预算内路线]
+  O --> V[地图 + 路线卡片]
 ```
 
-## Optional Dispatch-Owned ChatGPT Sign-In
+Function Calling 工具包括：更新行程条件、解析起点、检索巡礼地点、记录普通餐厅授权、检索普通餐厅、规划步行路线。模型决定何时调用；后端负责参数校验、授权规则和数据边界。
 
-Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs optional or required ChatGPT sign-in:
+## 结果与验证
 
-- Use `getChatGPTUser()` for optional signed-in UI.
-- Use the returned `userId` as the stable user key for user-owned records; do not use email as a durable identifier.
-- Use `requireChatGPTUser(returnTo)` for server-rendered pages that should send anonymous visitors through Sign in with ChatGPT.
-- In a Server Component, start sign-in with `<a href={chatGPTSignInPath(returnTo)} target="_top">`. The auth helper module is server-only; do not import it into a Client Component.
-- Do not use `fetch`, XHR, a client-side router, or a framework link that can prefetch the sign-in route. SIWC must start as a top-level navigation.
-- Never request the AuthAPI authorization endpoint directly. The dispatch-owned `/signin-with-chatgpt` route must start the SIWC flow.
-- Use `chatGPTSignOutPath(returnTo)` for browser sign-out links or actions.
-- Pass a same-origin relative `returnTo` path for the destination after sign-in or sign-out. The helper validates and safely encodes it.
-- Mark protected pages with `export const dynamic = "force-dynamic"` because they depend on per-request identity headers.
+- 430+ 条公开地点记录，本地快照与线上刷新双保险；
+- 真实多轮上下文，可重新规划并清空旧条件；
+- OpenStreetMap 地图与真实步行线路；
+- 覆盖条件抽取、成员筛选、错误地名、空结果、Markdown 卡片与补问状态的自动回归；
+- 公共 Demo 使用 D1 持久化限额，API Key 仅存在服务端环境变量。
 
-Dispatch owns `/signin-with-chatgpt`, `/signout-with-chatgpt`, `/callback`, the OAuth cookies, and identity header injection. Do not implement app routes for those reserved paths. Routes that do not import and call the helper remain anonymous-compatible.
+更详细的用户问题、MVP 范围、指标与取舍见 [产品案例](docs/product-case-study.md)，核心测试见 [评测报告](docs/evaluation.md)。
 
-SIWC establishes identity only; it does not prove workspace membership. Use the Sites hosting platform's access policy controls for workspace-wide restrictions, or enforce explicit server-side membership or allowlist checks.
+## 技术架构
 
-Use SIWC for account pages, user-specific dashboards, saved records, and write actions tied to the current ChatGPT user. Leave public content anonymous.
+- 前端：React 19、Vinext/Next API、Leaflet
+- Agent：Qwen 兼容 OpenAI Chat Completions + Function Calling
+- 数据：SakuMap 公开地点快照、OpenStreetMap / Overpass
+- 路线：OSRM foot profile
+- 托管与限额：Cloudflare Worker、D1
+- 安全：服务端密钥、输入/上下文限制、匿名哈希日限额、无原始 IP 持久化
 
-## Local D1 migrations
+## 本地运行
 
-For a D1-backed local preview, generate SQL with `npm run db:generate`. Build once through the Sites skill's build entrypoint (or `npm run build` for standalone use) to generate `dist/server/wrangler.json`, rebuilding if bindings change. From the project root, apply each pending migration in order:
+要求 Node.js 22.13+。
 
-```sh
-node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_example.sql
+```bash
+pnpm install
+cp .env.example .env.local
+# 在 .env.local 中填写 DASHSCOPE_API_KEY
+pnpm run db:generate
+pnpm run build
+pnpm run dev
 ```
 
-Replace the filename with the pending migration and `DB` with your D1 binding name if different. Use `.wrangler/state`, not `.wrangler/state/v3`; Wrangler adds the versioned directories. Do not replay migrations already applied locally. This updates only the preview database; publishing applies production migrations separately.
+本地使用 D1 时，构建后按迁移文件顺序执行：
 
-## Diagnostic Commands
+```bash
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_flowery_omega_red.sql
+```
 
-- `npm run install:ci`: perform the one locked dependency install
-- `npm run dev`: start the Vite/Vinext development server
-- `npm run build`: build the deployable Sites artifact
-- `npm run start`: preview the built Worker locally with D1/R2 support
-- `npm run db:generate`: generate Drizzle migrations after schema changes
+## 数据与边界
 
-When using the Sites plugin, follow its skill instructions for installation, builds, and publishing. These npm commands remain available for standalone use.
+- 巡礼地点来自 SakuMap 公开数据的只读快照，仓库不代表原站授权或官方背书；
+- OpenStreetMap、Overpass 与 OSRM 公共服务存在频率和可用性限制；
+- 活动关联不等于活动仍在举办，餐厅与场所营业状态需出行前核实；
+- 本项目是求职作品集与非商业 Demo，不收集原始 IP，不提供导航安全保证。
 
-The portable build runs Vinext directly without a host `timeout` command. The managed-linux build uses `scripts/build-verified.sh` and its existing `SITES_BUILD_TIMEOUT` setting.
+## 目录
 
-## Learn More
+```text
+app/                 交互界面与 API
+lib/agent.ts         Agent 状态、工具与决策循环
+lib/place-source.ts  地点快照刷新与校验
+lib/demo-quota.ts    公开 Demo 限额
+data/                只读地点快照
+db/ + drizzle/       D1 限额数据结构与迁移
+tests/               核心回归测试
+docs/                产品案例、Agent 设计、评测与演示脚本
+```
 
-- [vinext Documentation](https://github.com/cloudflare/vinext)
-- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+## License
+
+代码使用 [MIT License](LICENSE)。地点内容的权利仍归原始数据提供方所有。
