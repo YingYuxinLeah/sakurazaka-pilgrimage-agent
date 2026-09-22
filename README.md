@@ -2,9 +2,9 @@
 
 > 面向中国櫻坂46粉丝的多轮路线规划产品：把“想在港区巡礼半天、从六本木站出发、只看某位成员相关地点”等自然语言需求，转化为可执行的地点组合、步行顺序和地图路线。
 
-[在线限量 Demo](https://sakamichi-pilgrimage-agent.yuxinying941.chatgpt.site) · [完整产品案例](docs/product-case-study.md) · [Agent 设计](docs/agent-design.md) · [评测报告](docs/evaluation.md)
+[在线限量 Demo](https://sakamichi-pilgrimage-agent.yuxinying941.chatgpt.site) · [🎬 产品演示]（https://youtu.be/pziU0P29Zjs）·[完整产品案例](docs/product-case-study.md) · [Agent 设计](docs/agent-design.md) · [评测报告](docs/evaluation.md)
 
-## 30 秒看懂产品
+## 产品介绍
 
 现有圣地地图解决“地点在哪里”，却没有解决“我今天应该怎么走”。用户仍需在圣地地图、Google Maps 与餐厅页面之间反复切换，手动判断距离、时间和顺序。
 
@@ -20,15 +20,19 @@
 
 ### 产品演示视频
 
-> 🎬 YouTube 演示视频待补充。建议展示“信息不完整 → Agent 补问 → 限定成员 → 餐厅授权 → 地图路线 → 中途改条件”的完整多轮流程。
+[![櫻坂圣地巡礼路线规划 Agent 产品演示](https://img.youtube.com/vi/abc123XYZ/maxresdefault.jpg)](https://www.youtube.com/watch?v=pziU0P29Zjs)
 
-<!-- 后续替换为：[观看 3 分钟产品演示](YOUR_YOUTUBE_URL) -->
 
 ### 核心流程 GIF
 
-> 🖼️ GIF 待补充。建议使用 12–20 秒静音循环，聚焦从自然语言输入到路线地图生成。
+![櫻坂圣地巡礼路线规划 Agent Demo](docs/assets/demo.gif)
 
-<!-- 后续将 docs/assets/demo.gif 放入仓库并使用：![核心流程](docs/assets/demo.gif) -->
+自然语言输入  
+→ Agent 自动补问缺失条件  
+→ 检索成员相关圣地  
+→ 计算真实步行距离  
+→ 在时间预算内生成可执行路线  
+→ 地图可视化
 
 ## 产品经理视角：关键决策
 
