@@ -20,8 +20,6 @@
 
 ### 产品演示视频
 
-### 产品演示视频
-
 [![櫻坂圣地巡礼路线规划 Agent 产品演示](docs/assets/youtube-cover.png)](https://youtu.be/pziU0P29Zjs)
 
 > 🎬 点击图片观看完整产品演示
