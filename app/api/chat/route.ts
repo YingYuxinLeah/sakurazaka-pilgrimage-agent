@@ -3,7 +3,7 @@ import { runAgent } from "@/lib/agent";
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
+    const body: any = await request.json();
     const message = String(body.message ?? "").trim();
     if (!message) return NextResponse.json({error:"请输入巡礼需求。"},{status:400});
     return NextResponse.json(await runAgent(message, body.context));

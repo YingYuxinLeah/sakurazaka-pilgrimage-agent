@@ -3,11 +3,358 @@
     "source_name": "SakuMap",
     "source_page": "https://buddies46.stars.ne.jp/satellite/sakumap/",
     "source_endpoint": "https://buddies46.stars.ne.jp/satellite/sakumap/api.php?action=spots_list",
-    "fetched_at": "2026-09-20T23:01:33+08:00",
-    "record_count": 412,
-    "note": "求职作品MVP的只读数据快照；展示时保留来源链接。"
+    "fetched_at": "2026-09-22T08:55:25.072Z",
+    "record_count": 430
   },
   "places": [
+    {
+      "id": "sakumap_477",
+      "source_id": 477,
+      "name": "Lot C",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスPico-UnionL. A. Live Way",
+      "latitude": 34.044464,
+      "longitude": -118.270617,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "田村 保乃",
+        "山﨑 天",
+        "櫻坂チャンネル",
+        "YouTube",
+        "駐車場"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=477"
+    },
+    {
+      "id": "sakumap_476",
+      "source_id": 476,
+      "name": "West Garage Parking Lot ※保乃さん・天さんダッシュ終了地点",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスDowntownGeorgia Street",
+      "latitude": 34.04479,
+      "longitude": -118.269195,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "田村 保乃",
+        "山﨑 天",
+        "櫻坂チャンネル",
+        "YouTube",
+        "ダッシュ",
+        "走る",
+        "定員オーバー"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=476"
+    },
+    {
+      "id": "sakumap_475",
+      "source_id": 475,
+      "name": "West Garage Parking Lot ※保乃さん・天さんダッシュ開始地点",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスDowntownGeorgia Street",
+      "latitude": 34.044475,
+      "longitude": -118.268395,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "田村 保乃",
+        "山﨑 天",
+        "櫻坂チャンネル",
+        "YouTube",
+        "ダッシュ",
+        "走る",
+        "定員オーバー"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=475"
+    },
+    {
+      "id": "sakumap_474",
+      "source_id": 474,
+      "name": "Georgia Street",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスDowntownChick Hearn Court",
+      "latitude": 34.044476,
+      "longitude": -118.2678,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "櫻坂チャンネル",
+        "YouTube"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=474"
+    },
+    {
+      "id": "sakumap_473",
+      "source_id": 473,
+      "name": "Whole Foods Market",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスDowntownSouth Grand Avenue",
+      "latitude": 34.045878,
+      "longitude": -118.257672,
+      "planning_category": "餐厅",
+      "source_category": "gourmet",
+      "source_category_label": "グルメ",
+      "tags": [
+        "櫻坂チャンネル",
+        "YouTube",
+        "スーパー",
+        "スーパーマーケット"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=473"
+    },
+    {
+      "id": "sakumap_472",
+      "source_id": 472,
+      "name": "Le Grand Restaurant",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスDowntownSouth Grand Avenue",
+      "latitude": 34.046909,
+      "longitude": -118.256884,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "谷口 愛季",
+        "向井 純葉",
+        "山下 瞳月",
+        "櫻坂チャンネル",
+        "YouTube"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=472"
+    },
+    {
+      "id": "sakumap_471",
+      "source_id": 471,
+      "name": "六本木ミュージアム",
+      "summary": "2026年１月７日-２月２日「30周年記念 大たまごっち展」会場",
+      "address": "港区六本木五丁目",
+      "latitude": 35.659574,
+      "longitude": 139.734018,
+      "planning_category": "景点",
+      "source_category": "event",
+      "source_category_label": "イベント",
+      "tags": [
+        "谷口 愛季",
+        "たまごっち",
+        "あいりぐらむ"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=471"
+    },
+    {
+      "id": "sakumap_470",
+      "source_id": 470,
+      "name": "McDonald's",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスHistoric South-CentralSouth Figueroa Street",
+      "latitude": 34.026087,
+      "longitude": -118.276874,
+      "planning_category": "餐厅",
+      "source_category": "gourmet",
+      "source_category_label": "グルメ",
+      "tags": [
+        "櫻坂チャンネル",
+        "YouTube",
+        "マック",
+        "マクド",
+        "マクドナルド",
+        "ファーストフード",
+        "ファストフード"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=470"
+    },
+    {
+      "id": "sakumap_469",
+      "source_id": 469,
+      "name": "Peacock Theater",
+      "summary": "「Anime Expo 2025（ウェルカムセレモニー）」・「J-POP SOUND CAPSULE @AX2025 Anisong World Matsuri Returns」会場",
+      "address": "アメリカ合衆国カリフォルニア州ロサンゼルスDowntownChick Hearn Court",
+      "latitude": 34.044506,
+      "longitude": -118.267062,
+      "planning_category": "景点",
+      "source_category": "live",
+      "source_category_label": "ライブ",
+      "tags": [
+        "Anime Expo 2025",
+        "AX2025",
+        "Anime Expo",
+        "AX",
+        "ウェルカムセレモニー",
+        "Start over!",
+        "スタオバ"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=469"
+    },
+    {
+      "id": "sakumap_468",
+      "source_id": 468,
+      "name": "Colorado Ave",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州サンタモニカSanta Monica Pier",
+      "latitude": 34.010025,
+      "longitude": -118.496619,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "櫻坂チャンネル",
+        "YouTube"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=468"
+    },
+    {
+      "id": "sakumap_467",
+      "source_id": 467,
+      "name": "Pacific Park on the Santa Monica Pier",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州サンタモニカSanta Monica Pier",
+      "latitude": 34.008539,
+      "longitude": -118.497806,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "櫻坂チャンネル",
+        "YouTube",
+        "遊園地",
+        "観覧車",
+        "ジェットコースター",
+        "モグラ叩き"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=467"
+    },
+    {
+      "id": "sakumap_466",
+      "source_id": 466,
+      "name": "Smashie's Burgers",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州サンタモニカSanta Monica Pier",
+      "latitude": 34.008685,
+      "longitude": -118.49803,
+      "planning_category": "餐厅",
+      "source_category": "gourmet",
+      "source_category_label": "グルメ",
+      "tags": [
+        "藤吉 夏鈴",
+        "櫻坂チャンネル",
+        "YouTube",
+        "ハンバーガー",
+        "ポテト"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=466"
+    },
+    {
+      "id": "sakumap_465",
+      "source_id": 465,
+      "name": "ハンバーグレストランHACHI 名取本店",
+      "summary": "【Vlog】Go To サクラ旅 ～全国の桜名所巡り 時々メシ in 宮城～",
+      "address": "宮城県名取市",
+      "latitude": 38.168254,
+      "longitude": 140.890288,
+      "planning_category": "餐厅",
+      "source_category": "gourmet",
+      "source_category_label": "グルメ",
+      "tags": [
+        "大園 玲",
+        "小林 由依",
+        "Go To サクラ旅"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=465"
+    },
+    {
+      "id": "sakumap_464",
+      "source_id": 464,
+      "name": "櫻岡大神宮",
+      "summary": "【Vlog】Go To サクラ旅 ～全国の桜名所巡り 時々メシ in 宮城～",
+      "address": "宮城県仙台市青葉区仙台西道路",
+      "latitude": 38.259668,
+      "longitude": 140.8619,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "小林 由依",
+        "大園 玲",
+        "Go To サクラ旅"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=464"
+    },
+    {
+      "id": "sakumap_463",
+      "source_id": 463,
+      "name": "タイトーステーション 仙台名掛丁店",
+      "summary": "【Vlog】Go To サクラ旅 ～全国の桜名所巡り 時々メシ in 宮城～",
+      "address": "宮城県仙台市青葉区",
+      "latitude": 38.261934,
+      "longitude": 140.879229,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "大園 玲",
+        "小林 由依",
+        "Go To サクラ旅"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=463"
+    },
+    {
+      "id": "sakumap_462",
+      "source_id": 462,
+      "name": "味の牛たん 喜助 駅前中央本店",
+      "summary": "【Vlog】Go To サクラ旅 ～全国の桜名所巡り 時々メシ in 宮城～",
+      "address": "宮城県仙台市青葉区愛宕上杉通",
+      "latitude": 38.261353,
+      "longitude": 140.87872,
+      "planning_category": "餐厅",
+      "source_category": "gourmet",
+      "source_category_label": "グルメ",
+      "tags": [
+        "小林 由依",
+        "大園 玲",
+        "Go To サクラ旅"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=462"
+    },
+    {
+      "id": "sakumap_461",
+      "source_id": 461,
+      "name": "The Bike Center Santa Monica",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州サンタモニカColorado Avenue",
+      "latitude": 34.01242,
+      "longitude": -118.493905,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "櫻坂チャンネル",
+        "YouTube"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=461"
+    },
+    {
+      "id": "sakumap_460",
+      "source_id": 460,
+      "name": "Santa Monica (State) Beach",
+      "summary": "【Vlog】海外ライブinLA！Anime Expo2025の裏側でテーマパークやお買い物も！【全力ダッシュ】",
+      "address": "アメリカ合衆国カリフォルニア州サンタモニカSanta Monica Pier",
+      "latitude": 34.008894,
+      "longitude": -118.4974,
+      "planning_category": "景点",
+      "source_category": "spot",
+      "source_category_label": "スポット",
+      "tags": [
+        "櫻坂チャンネル",
+        "YouTube",
+        "ビーチ",
+        "海"
+      ],
+      "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=460"
+    },
     {
       "id": "sakumap_459",
       "source_id": 459,
@@ -24,8 +371,6 @@
         "映画",
         "踊る大捜査線"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=459"
     },
     {
@@ -44,8 +389,6 @@
         "映画",
         "踊る大捜査線"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=458"
     },
     {
@@ -66,8 +409,6 @@
         "ラビット",
         "そこさく"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=457"
     },
     {
@@ -93,8 +434,6 @@
         "バズリズム",
         "ライブ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=456"
     },
     {
@@ -118,8 +457,6 @@
         "ドラマ",
         "Lemino"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=455"
     },
     {
@@ -138,8 +475,6 @@
         "愛MUST BE",
         "MV"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=454"
     },
     {
@@ -159,8 +494,6 @@
         "櫻坂チャンネル",
         "YouTube"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=453"
     },
     {
@@ -183,8 +516,6 @@
         "ロープウェイ",
         "ロープウエー"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=452"
     },
     {
@@ -206,8 +537,6 @@
         "噴水",
         "ショー"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=451"
     },
     {
@@ -218,7 +547,7 @@
       "address": "大韓民国ソウル特別市신사동언주로172길",
       "latitude": 37.526689,
       "longitude": 127.039756,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -226,8 +555,6 @@
         "村井 優",
         "パン"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=450"
     },
     {
@@ -245,8 +572,6 @@
         "谷口 愛季",
         "向井 純葉"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=449"
     },
     {
@@ -269,8 +594,6 @@
         "看板",
         "DEAD END"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=448"
     },
     {
@@ -291,8 +614,6 @@
         "YouTube",
         "宮島"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=447"
     },
     {
@@ -314,8 +635,6 @@
         "石碑",
         "鹿"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=446"
     },
     {
@@ -332,8 +651,6 @@
       "tags": [
         "谷口 愛季"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=445"
     },
     {
@@ -357,8 +674,6 @@
         "ロープウエー",
         "フェリー"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=444"
     },
     {
@@ -378,8 +693,6 @@
         "バリ島",
         "インドネシア"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=443"
     },
     {
@@ -398,8 +711,6 @@
         "谷口 愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=442"
     },
     {
@@ -418,8 +729,6 @@
         "向井 純葉",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=441"
     },
     {
@@ -438,8 +747,6 @@
         "谷口 愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=440"
     },
     {
@@ -458,8 +765,6 @@
         "谷口 愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=439"
     },
     {
@@ -478,8 +783,6 @@
         "向井 純葉",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=438"
     },
     {
@@ -498,8 +801,6 @@
         "谷口 愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=437"
     },
     {
@@ -516,8 +817,6 @@
       "tags": [
         "ライブ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=436"
     },
     {
@@ -538,8 +837,6 @@
         "村井 優",
         "守屋 麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=435"
     },
     {
@@ -564,8 +861,6 @@
         "村山 美羽",
         "森田 ひかる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=434"
     },
     {
@@ -583,8 +878,6 @@
         "櫻坂チャンネル",
         "YouTube"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=433"
     },
     {
@@ -602,8 +895,6 @@
         "石森 璃花",
         "りかのいんすた"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=432"
     },
     {
@@ -625,8 +916,6 @@
         "増本 綺良",
         "サクラミーツ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=431"
     },
     {
@@ -646,8 +935,6 @@
         "Instagram",
         "あいりぐらむ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=430"
     },
     {
@@ -658,15 +945,13 @@
       "address": "大韓民国ソウル特別市성수2가1동성수일로4길",
       "latitude": 37.542436,
       "longitude": 127.054141,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
         "石森 璃花",
         "りかのいんすた"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=429"
     },
     {
@@ -684,8 +969,6 @@
         "石森 璃花",
         "りかのいんすた"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=428"
     },
     {
@@ -709,8 +992,6 @@
         "ケータリング",
         "全国アリーナツアー2026"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=427"
     },
     {
@@ -730,8 +1011,6 @@
         "櫻坂チャンネル",
         "YouTube"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=426"
     },
     {
@@ -742,7 +1021,7 @@
       "address": "香川県高松市",
       "latitude": 34.323734,
       "longitude": 134.11883,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -750,8 +1029,6 @@
         "全国アリーナツアー2026",
         "ケータリング"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=425"
     },
     {
@@ -772,8 +1049,6 @@
         "YouTube",
         "みゅーづ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=424"
     },
     {
@@ -793,8 +1068,6 @@
         "みゅーづ",
         "人力車"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=423"
     },
     {
@@ -812,8 +1085,6 @@
         "中嶋 優月",
         "村山 美羽"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=422"
     },
     {
@@ -824,15 +1095,13 @@
       "address": "〒450-0002 愛知県名古屋市中村区名駅５丁目１６−１７",
       "latitude": 35.170122,
       "longitude": 136.8903,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
         "田村 保乃",
         "遠藤 理子"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=421"
     },
     {
@@ -853,8 +1122,6 @@
         "YouTube",
         "みゅーづ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=417"
     },
     {
@@ -875,8 +1142,6 @@
         "YouTube",
         "みゅーづ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=416"
     },
     {
@@ -894,8 +1159,6 @@
         "中嶋 優月",
         "村山 美羽"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=415"
     },
     {
@@ -916,8 +1179,6 @@
         "YouTube",
         "みゅーづ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=414"
     },
     {
@@ -928,15 +1189,13 @@
       "address": "石川県金沢市東山１丁目２３−１０",
       "latitude": 36.571973,
       "longitude": 136.667912,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
         "中嶋 優月",
         "村山 美羽"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=413"
     },
     {
@@ -954,8 +1213,6 @@
         "中嶋 優月",
         "村山 美羽"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=412"
     },
     {
@@ -974,8 +1231,6 @@
         "全国アリーナツアー2026",
         "ケータリング"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=411"
     },
     {
@@ -996,8 +1251,6 @@
         "ケータリング",
         "全国アリーナツアー2026"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=410"
     },
     {
@@ -1019,8 +1272,6 @@
         "水族館",
         "アール"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=409"
     },
     {
@@ -1041,13 +1292,8 @@
         "雑誌",
         "アール",
         "全国アリーナツアー2026",
-        "ケータリング",
-        "山﨑 天",
-        "谷口 愛季",
-        "守屋 麗奈"
+        "ケータリング"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=408"
     },
     {
@@ -1065,8 +1311,6 @@
         "藤吉 夏鈴",
         "山﨑 天"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=407"
     },
     {
@@ -1084,8 +1328,6 @@
         "藤吉 夏鈴",
         "山﨑 天"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=406"
     },
     {
@@ -1104,8 +1346,6 @@
         "MV",
         "「Unhappy birthday構文」"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=404"
     },
     {
@@ -1125,8 +1365,6 @@
         "ブログ",
         "全国アリーナツアー2026"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=403"
     },
     {
@@ -1145,8 +1383,6 @@
         "山川 宇衣",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=399"
     },
     {
@@ -1165,8 +1401,6 @@
         "山川 宇衣",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=398"
     },
     {
@@ -1177,7 +1411,7 @@
       "address": "長野県小布施町国道403号",
       "latitude": 36.695293,
       "longitude": 138.316396,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -1185,8 +1419,6 @@
         "山川 宇衣",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=397"
     },
     {
@@ -1205,8 +1437,6 @@
         "山川 宇衣",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=396"
     },
     {
@@ -1225,8 +1455,6 @@
         "小田倉 麗奈",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=395"
     },
     {
@@ -1245,8 +1473,6 @@
         "山川 宇衣",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=394"
     },
     {
@@ -1264,8 +1490,6 @@
         "小田倉 麗奈",
         "山川 宇衣"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=393"
     },
     {
@@ -1282,8 +1506,6 @@
       "tags": [
         "AFA"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=392"
     },
     {
@@ -1301,8 +1523,6 @@
         "松田 里奈",
         "守屋 麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=391"
     },
     {
@@ -1313,7 +1533,7 @@
       "address": "神奈川県三浦市三崎三丁目",
       "latitude": 35.139816,
       "longitude": 139.617196,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -1321,8 +1541,6 @@
         "田村 保乃",
         "中嶋 優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=390"
     },
     {
@@ -1343,8 +1561,6 @@
         "松田 里奈",
         "守屋 麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=389"
     },
     {
@@ -1365,8 +1581,6 @@
         "松田 里奈",
         "守屋 麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=388"
     },
     {
@@ -1387,8 +1601,6 @@
         "松田 里奈",
         "守屋 麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=387"
     },
     {
@@ -1409,8 +1621,6 @@
         "松田 里奈",
         "守屋 麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=386"
     },
     {
@@ -1433,8 +1643,6 @@
         "守屋 麗奈",
         "松本 和子"
       ],
-      "visit_count": 2,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=385"
     },
     {
@@ -1452,8 +1660,6 @@
         "山﨑 天",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=384"
     },
     {
@@ -1470,8 +1676,6 @@
       "tags": [
         "山﨑 天"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=383"
     },
     {
@@ -1488,8 +1692,6 @@
       "tags": [
         "山﨑 天"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=382"
     },
     {
@@ -1500,14 +1702,12 @@
       "address": "沖縄県那覇市壺屋一丁目壺屋やちむん通り",
       "latitude": 26.21267,
       "longitude": 127.692316,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
         "山﨑 天"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=381"
     },
     {
@@ -1524,8 +1724,6 @@
       "tags": [
         "山﨑 天"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=380"
     },
     {
@@ -1542,8 +1740,6 @@
       "tags": [
         "山﨑 天"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=379"
     },
     {
@@ -1560,8 +1756,6 @@
       "tags": [
         "山﨑 天"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=378"
     },
     {
@@ -1578,8 +1772,6 @@
       "tags": [
         "山﨑 天"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=377"
     },
     {
@@ -1598,8 +1790,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=376"
     },
     {
@@ -1618,8 +1808,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=375"
     },
     {
@@ -1636,8 +1824,6 @@
       "tags": [
         "村山 美羽"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=374"
     },
     {
@@ -1654,8 +1840,6 @@
       "tags": [
         "村山 美羽"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=373"
     },
     {
@@ -1674,8 +1858,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=372"
     },
     {
@@ -1686,7 +1868,7 @@
       "address": "埼玉県川越市元町一丁目一番街",
       "latitude": 35.923368,
       "longitude": 139.482816,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -1694,8 +1876,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=371"
     },
     {
@@ -1714,8 +1894,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=370"
     },
     {
@@ -1734,8 +1912,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=369"
     },
     {
@@ -1752,8 +1928,6 @@
       "tags": [
         "ライブ会場"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=368"
     },
     {
@@ -1772,8 +1946,6 @@
         "ラヴィット",
         "写真集"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=367"
     },
     {
@@ -1790,8 +1962,6 @@
       "tags": [
         "ライブ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=366"
     },
     {
@@ -1809,8 +1979,6 @@
         "ライブ",
         "MUSIC EXPO"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=365"
     },
     {
@@ -1831,8 +1999,6 @@
         "ケータリング",
         "ラーメン"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=364"
     },
     {
@@ -1843,7 +2009,7 @@
       "address": "兵庫県神戸市中央区生田南４１号線",
       "latitude": 34.687936,
       "longitude": 135.18607,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -1851,8 +2017,6 @@
         "全国アリーナツアー2026",
         "ケータリング"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=363"
     },
     {
@@ -1868,10 +2032,9 @@
       "source_category_label": "スポット",
       "tags": [
         "幸阪 茉里乃",
-        "大沼 晶保"
+        "大沼 晶保",
+        "Go To サクラ旅"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=362"
     },
     {
@@ -1889,8 +2052,6 @@
         "幸阪 茉里乃",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=361"
     },
     {
@@ -1908,8 +2069,6 @@
         "幸阪 茉里乃",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=360"
     },
     {
@@ -1927,8 +2086,6 @@
         "増本 綺良",
         "幸阪 茉里乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=359"
     },
     {
@@ -1939,7 +2096,7 @@
       "address": "大阪府大阪市阿倍野区阿倍野筋1-2-30 あべのHoop 6F",
       "latitude": 34.644965,
       "longitude": 135.513734,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -1949,8 +2106,6 @@
         "櫻坂46",
         "櫻坂46CAFE"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=358"
     },
     {
@@ -1967,8 +2122,6 @@
       "tags": [
         "全国アリーナツアー2026"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=357"
     },
     {
@@ -1987,8 +2140,6 @@
         "ライブ",
         "ライブ会場"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=356"
     },
     {
@@ -2007,8 +2158,6 @@
         "ライブ",
         "ライブ会場"
       ],
-      "visit_count": 3,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=355"
     },
     {
@@ -2028,8 +2177,6 @@
         "JJ",
         "RIJF"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=354"
     },
     {
@@ -2048,8 +2195,6 @@
         "ロッキン",
         "RIJF"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=353"
     },
     {
@@ -2075,8 +2220,6 @@
         "ユニ春",
         "CM"
       ],
-      "visit_count": 4,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=352"
     },
     {
@@ -2101,8 +2244,6 @@
         "honogram",
         "ゆづのいんすた"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=351"
     },
     {
@@ -2124,8 +2265,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=350"
     },
     {
@@ -2147,8 +2286,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=349"
     },
     {
@@ -2170,8 +2307,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=348"
     },
     {
@@ -2191,8 +2326,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=347"
     },
     {
@@ -2214,8 +2347,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=346"
     },
     {
@@ -2237,8 +2368,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=345"
     },
     {
@@ -2260,8 +2389,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=344"
     },
     {
@@ -2283,8 +2410,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=343"
     },
     {
@@ -2295,7 +2420,7 @@
       "address": "新潟県新発田市月岡温泉小唄橋",
       "latitude": 37.878969,
       "longitude": 139.311234,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -2306,8 +2431,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=342"
     },
     {
@@ -2329,8 +2452,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=341"
     },
     {
@@ -2352,8 +2473,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=340"
     },
     {
@@ -2372,8 +2491,6 @@
         "花火",
         "あいりぐらむ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=338"
     },
     {
@@ -2395,8 +2512,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=337"
     },
     {
@@ -2418,8 +2533,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=336"
     },
     {
@@ -2441,8 +2554,6 @@
         "JR東日本",
         "コラボ"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=335"
     },
     {
@@ -2453,7 +2564,7 @@
       "address": "神奈川県箱根町神奈川県道732号湯本元箱根線",
       "latitude": 35.231911,
       "longitude": 139.107856,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -2463,8 +2574,6 @@
         "日向坂46",
         "日向坂ちゃんねる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=334"
     },
     {
@@ -2485,8 +2594,6 @@
         "日向坂46",
         "日向坂ちゃんねる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=333"
     },
     {
@@ -2507,8 +2614,6 @@
         "日向坂46",
         "日向坂ちゃんねる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=332"
     },
     {
@@ -2519,7 +2624,7 @@
       "address": "神奈川県箱根町ちきゅうの谷",
       "latitude": 35.244254,
       "longitude": 139.020054,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -2529,8 +2634,6 @@
         "日向坂46",
         "日向坂ちゃんねる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=331"
     },
     {
@@ -2551,8 +2654,6 @@
         "日向坂46",
         "日向坂ちゃんねる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=330"
     },
     {
@@ -2573,8 +2674,6 @@
         "日向坂46",
         "日向坂ちゃんねる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=329"
     },
     {
@@ -2596,8 +2695,6 @@
         "日向坂ちゃんねる",
         "コラボ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=328"
     },
     {
@@ -2608,7 +2705,7 @@
       "address": "埼玉県川越市元町二丁目菓子屋横町",
       "latitude": 35.924687,
       "longitude": 139.481725,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -2616,8 +2713,6 @@
         "そこさく",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=321"
     },
     {
@@ -2635,8 +2730,6 @@
         "的野美青",
         "山下瞳月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=320"
     },
     {
@@ -2654,8 +2747,6 @@
         "櫻坂チャンネル",
         "松田里奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=319"
     },
     {
@@ -2666,7 +2757,7 @@
       "address": "千代田区神田三崎町三丁目",
       "latitude": 35.700106,
       "longitude": 139.753049,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -2676,8 +2767,6 @@
         "インスタグラム",
         "Instagram"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=318"
     },
     {
@@ -2696,8 +2785,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=317"
     },
     {
@@ -2716,8 +2803,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=316"
     },
     {
@@ -2739,8 +2824,6 @@
         "スパゲッティ",
         "スパゲッティー"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=315"
     },
     {
@@ -2759,8 +2842,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=314"
     },
     {
@@ -2779,8 +2860,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=313"
     },
     {
@@ -2799,8 +2878,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=312"
     },
     {
@@ -2819,8 +2896,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=311"
     },
     {
@@ -2831,15 +2906,13 @@
       "address": "東京都新宿区大久保３丁目１０−１ オレンジコート",
       "latitude": 35.708618,
       "longitude": 139.705029,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
         "櫻坂チャンネル",
         "遠藤理子"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=310"
     },
     {
@@ -2850,12 +2923,10 @@
       "address": "東京都渋谷区渋谷２丁目１１−１４",
       "latitude": 35.660149,
       "longitude": 139.707199,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=309"
     },
     {
@@ -2866,7 +2937,7 @@
       "address": "静岡県島田市大西町二丁目島田大井川線",
       "latitude": 34.832071,
       "longitude": 138.22406,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -2876,8 +2947,6 @@
         "ビール",
         "お酒"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=308"
     },
     {
@@ -2898,8 +2967,6 @@
         "お酒",
         "満天☆青空レストラン"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=307"
     },
     {
@@ -2916,8 +2983,6 @@
       "tags": [
         "vlog"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=306"
     },
     {
@@ -2936,8 +3001,6 @@
         "四期生個人pv",
         "個人pv"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=305"
     },
     {
@@ -2955,8 +3018,6 @@
         "佐藤愛桜",
         "四期生Vlog"
       ],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=304"
     },
     {
@@ -2974,8 +3035,6 @@
         "「Lonsome rabbit」",
         "We got your back"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=303"
     },
     {
@@ -2994,8 +3053,6 @@
         "We got your back",
         "四期生"
       ],
-      "visit_count": 0,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=302"
     },
     {
@@ -3006,7 +3063,7 @@
       "address": "群馬県高崎市国道406号",
       "latitude": 36.3446,
       "longitude": 138.962181,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -3015,8 +3072,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=301"
     },
     {
@@ -3027,7 +3082,7 @@
       "address": "群馬県みなかみ町国道291号",
       "latitude": 36.753626,
       "longitude": 138.971307,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -3036,8 +3091,6 @@
         "りかのぶろぐ",
         "ブログ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=300"
     },
     {
@@ -3058,8 +3111,6 @@
         "YouTube",
         "マチ★アソビ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=298"
     },
     {
@@ -3080,8 +3131,6 @@
         "YouTube",
         "マチ★アソビ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=297"
     },
     {
@@ -3092,7 +3141,7 @@
       "address": "徳島県鳴門市",
       "latitude": 34.162986,
       "longitude": 134.562881,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -3102,8 +3151,6 @@
         "YouTube",
         "マチ★アソビ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=296"
     },
     {
@@ -3124,8 +3171,6 @@
         "YouTube",
         "マチ★アソビ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=295"
     },
     {
@@ -3146,8 +3191,6 @@
         "YouTube",
         "マチ★アソビ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=294"
     },
     {
@@ -3168,8 +3211,6 @@
         "YouTube",
         "マチ★アソビ"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=293"
     },
     {
@@ -3189,8 +3230,6 @@
         "Vlog",
         "帰省"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=292"
     },
     {
@@ -3215,8 +3254,6 @@
         "「コインランドリー」",
         "遠藤理子"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=291"
     },
     {
@@ -3237,8 +3274,6 @@
         "ヒット祈願",
         "IWTC"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=290"
     },
     {
@@ -3255,8 +3290,6 @@
       "tags": [
         "森田ひかる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=289"
     },
     {
@@ -3273,8 +3306,6 @@
       "tags": [
         "森田ひかる"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=288"
     },
     {
@@ -3291,8 +3322,6 @@
       "tags": [
         "森田ひかる"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=287"
     },
     {
@@ -3309,8 +3338,6 @@
       "tags": [
         "ライブ会場"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=286"
     },
     {
@@ -3329,8 +3356,6 @@
         "4期生",
         "四期生個人pv"
       ],
-      "visit_count": 2,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=285"
     },
     {
@@ -3351,8 +3376,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=284"
     },
     {
@@ -3373,8 +3396,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=283"
     },
     {
@@ -3395,8 +3416,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=282"
     },
     {
@@ -3417,8 +3436,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=281"
     },
     {
@@ -3439,8 +3456,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=280"
     },
     {
@@ -3461,8 +3476,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=279"
     },
     {
@@ -3482,8 +3495,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=278"
     },
     {
@@ -3504,8 +3515,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=277"
     },
     {
@@ -3526,8 +3535,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=276"
     },
     {
@@ -3548,8 +3555,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=275"
     },
     {
@@ -3570,8 +3575,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=274"
     },
     {
@@ -3592,8 +3595,6 @@
         "YouTube",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=273"
     },
     {
@@ -3612,8 +3613,6 @@
         "勝又春",
         "目黒陽色"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=272"
     },
     {
@@ -3632,8 +3631,6 @@
         "勝又春",
         "目黒陽色"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=271"
     },
     {
@@ -3652,8 +3649,6 @@
         "目黒陽色",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=270"
     },
     {
@@ -3672,8 +3667,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=269"
     },
     {
@@ -3692,8 +3685,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=268"
     },
     {
@@ -3712,8 +3703,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=267"
     },
     {
@@ -3732,8 +3721,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=266"
     },
     {
@@ -3752,8 +3739,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=265"
     },
     {
@@ -3772,8 +3757,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=264"
     },
     {
@@ -3792,8 +3775,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=263"
     },
     {
@@ -3812,8 +3793,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=262"
     },
     {
@@ -3831,8 +3810,6 @@
         "山田桃実",
         "四期生"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=261"
     },
     {
@@ -3849,8 +3826,6 @@
       "tags": [
         "#井上梨名 #帰省"
       ],
-      "visit_count": 1,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=260"
     },
     {
@@ -3872,8 +3847,6 @@
         "AnimeExpo2025",
         "LosAngeles"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=259"
     },
     {
@@ -3895,8 +3868,6 @@
         "AnimeExpo2025",
         "LosAngeles"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=258"
     },
     {
@@ -3911,8 +3882,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=244"
     },
     {
@@ -3927,8 +3896,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=243"
     },
     {
@@ -3943,8 +3910,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=242"
     },
     {
@@ -3959,8 +3924,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=241"
     },
     {
@@ -3975,8 +3938,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=240"
     },
     {
@@ -3987,12 +3948,10 @@
       "address": "〒530-0012 大阪府大阪市北区芝田１丁目１−３ 阪急三番街 B2F",
       "latitude": 34.705489,
       "longitude": 135.49834,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=239"
     },
     {
@@ -4010,8 +3969,6 @@
         "中川智尋",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=234"
     },
     {
@@ -4030,8 +3987,6 @@
         "守屋麗奈",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=233"
     },
     {
@@ -4048,8 +4003,6 @@
       "tags": [
         "#櫻坂チャンネル #村山美羽 #焼肉"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=232"
     },
     {
@@ -4066,8 +4019,6 @@
       "tags": [
         "#ラヴィット #大沼晶保 #守屋麗奈"
       ],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=231"
     },
     {
@@ -4086,8 +4037,6 @@
         "四期生",
         "四期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=230"
     },
     {
@@ -4106,8 +4055,6 @@
         "三期生",
         "三期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=229"
     },
     {
@@ -4127,8 +4074,6 @@
         "個人pv",
         "三期生個人pv"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=228"
     },
     {
@@ -4146,8 +4091,6 @@
         "櫻坂チャンネル",
         "藤吉夏鈴"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=227"
     },
     {
@@ -4165,8 +4108,6 @@
         "櫻坂チャンネル",
         "藤吉夏鈴"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=226"
     },
     {
@@ -4184,8 +4125,6 @@
         "櫻坂チャンネル",
         "藤吉夏鈴"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=225"
     },
     {
@@ -4203,8 +4142,6 @@
         "櫻坂チャンネル",
         "石森璃花"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=224"
     },
     {
@@ -4222,8 +4159,6 @@
         "櫻坂チャンネル",
         "石森璃花"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=223"
     },
     {
@@ -4240,8 +4175,6 @@
       "tags": [
         "小田倉麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=222"
     },
     {
@@ -4260,8 +4193,6 @@
         "森田ひかる",
         "増本綺良"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=221"
     },
     {
@@ -4281,8 +4212,6 @@
         "四期生Vlog",
         "YouTube"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=220"
     },
     {
@@ -4304,8 +4233,6 @@
         "四期生Vlog",
         "YouTube"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=219"
     },
     {
@@ -4324,8 +4251,6 @@
         "四期生",
         "ティザー"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=218"
     },
     {
@@ -4340,8 +4265,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=217"
     },
     {
@@ -4356,8 +4279,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=216"
     },
     {
@@ -4376,8 +4297,6 @@
         "山下瞳月",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=215"
     },
     {
@@ -4396,8 +4315,6 @@
         "村井優",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=214"
     },
     {
@@ -4416,8 +4333,6 @@
         "山下軍団",
         "櫻坂チャンネル"
       ],
-      "visit_count": 3,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=213"
     },
     {
@@ -4437,8 +4352,6 @@
         "むかいしもり",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=212"
     },
     {
@@ -4458,8 +4371,6 @@
         "むかいしもり",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=211"
     },
     {
@@ -4479,8 +4390,6 @@
         "むかいしもり",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=210"
     },
     {
@@ -4491,7 +4400,7 @@
       "address": "京都府京都市左京区",
       "latitude": 35.030197,
       "longitude": 135.773627,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -4499,8 +4408,6 @@
         "櫻坂チャンネル",
         "山下瞳月公式ブログ"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=209"
     },
     {
@@ -4519,8 +4426,6 @@
         "パリ",
         "JapanExpoParis2023"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=208"
     },
     {
@@ -4539,8 +4444,6 @@
         "パリ",
         "JapanExpoParis2023"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=207"
     },
     {
@@ -4559,8 +4462,6 @@
         "櫻坂チャンネル",
         "JapanExpoParis2023"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=206"
     },
     {
@@ -4579,8 +4480,6 @@
         "パリ",
         "JapanExpoParis2023"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=205"
     },
     {
@@ -4599,8 +4498,6 @@
         "ライブ会場",
         "JapanExpoParis2023"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=204"
     },
     {
@@ -4618,8 +4515,6 @@
         "マレーシア",
         "ライブ会場"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=203"
     },
     {
@@ -4641,8 +4536,6 @@
         "遠藤理子",
         "韓国"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=202"
     },
     {
@@ -4663,8 +4556,6 @@
         "遠藤理子",
         "韓国"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=201"
     },
     {
@@ -4686,8 +4577,6 @@
         "小島凪紗",
         "韓国"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=200"
     },
     {
@@ -4706,8 +4595,6 @@
         "小田倉麗奈",
         "韓国"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=199"
     },
     {
@@ -4726,8 +4613,6 @@
         "武元唯衣",
         "田村保乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=198"
     },
     {
@@ -4746,8 +4631,6 @@
         "武元唯衣",
         "田村保乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=197"
     },
     {
@@ -4766,8 +4649,6 @@
         "武元唯衣",
         "田村保乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=196"
     },
     {
@@ -4786,8 +4667,6 @@
         "武元唯衣",
         "田村保乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=195"
     },
     {
@@ -4805,8 +4684,6 @@
         "櫻坂チャンネル",
         "小田倉麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=194"
     },
     {
@@ -4825,8 +4702,6 @@
         "村井優",
         "石森璃花"
       ],
-      "visit_count": 2,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=193"
     },
     {
@@ -4845,8 +4720,6 @@
         "村井優",
         "石森璃花"
       ],
-      "visit_count": 3,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=192"
     },
     {
@@ -4864,8 +4737,6 @@
         "櫻坂チャンネル",
         "松田里奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=191"
     },
     {
@@ -4883,8 +4754,6 @@
         "櫻坂チャンネル",
         "勝又春"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=190"
     },
     {
@@ -4902,8 +4771,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=189"
     },
     {
@@ -4921,8 +4788,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=188"
     },
     {
@@ -4940,8 +4805,6 @@
         "櫻坂チャンネル",
         "的野美青"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=187"
     },
     {
@@ -4960,8 +4823,6 @@
         "AnimeFestivalAsia",
         "シンガポール"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=186"
     },
     {
@@ -4980,8 +4841,6 @@
         "AnimeFestivalAsia",
         "シンガポール"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=185"
     },
     {
@@ -5000,8 +4859,6 @@
         "AnimeFestivalAsia",
         "シンガポール"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=184"
     },
     {
@@ -5020,8 +4877,6 @@
         "AnimeFestivalAsia",
         "シンガポール"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=183"
     },
     {
@@ -5040,8 +4895,6 @@
         "AnimeFestivalAsia",
         "シンガポール"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=182"
     },
     {
@@ -5060,8 +4913,6 @@
         "AnimeFestivalAsia",
         "シンガポール"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=181"
     },
     {
@@ -5080,8 +4931,6 @@
         "井上梨名",
         "田村保乃"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=180"
     },
     {
@@ -5100,8 +4949,6 @@
         "井上梨名",
         "田村保乃"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=179"
     },
     {
@@ -5120,8 +4967,6 @@
         "井上梨名",
         "田村保乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=178"
     },
     {
@@ -5140,8 +4985,6 @@
         "りかのぶろぐ",
         "石森璃花"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=177"
     },
     {
@@ -5160,8 +5003,6 @@
         "石森璃花",
         "りかのいんすた"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=176"
     },
     {
@@ -5180,8 +5021,6 @@
         "石森璃花",
         "りかのいんすた"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=175"
     },
     {
@@ -5199,8 +5038,6 @@
         "櫻坂チャンネル",
         "武元唯衣"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=174"
     },
     {
@@ -5218,8 +5055,6 @@
         "櫻坂チャンネル",
         "武元唯衣"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=173"
     },
     {
@@ -5238,8 +5073,6 @@
         "増本綺良",
         "幸阪茉里乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=172"
     },
     {
@@ -5258,8 +5091,6 @@
         "増本綺良",
         "幸阪茉里乃"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=171"
     },
     {
@@ -5278,8 +5109,6 @@
         "小田倉麗奈",
         "reinablog"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=170"
     },
     {
@@ -5297,8 +5126,6 @@
         "櫻坂チャンネル",
         "小田倉麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=169"
     },
     {
@@ -5317,8 +5144,6 @@
         "田村保乃",
         "井上梨名"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=168"
     },
     {
@@ -5337,8 +5162,6 @@
         "ライブ会場",
         "全国アリーナツアー2026"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=167"
     },
     {
@@ -5353,8 +5176,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=166"
     },
     {
@@ -5374,8 +5195,6 @@
         "山梨",
         "藤吉夏鈴"
       ],
-      "visit_count": 1,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=165"
     },
     {
@@ -5393,8 +5212,6 @@
         "松本和子",
         "四期生"
       ],
-      "visit_count": 2,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=164"
     },
     {
@@ -5412,8 +5229,6 @@
         "谷口愛季",
         "三期生"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=163"
     },
     {
@@ -5431,8 +5246,6 @@
         "向井純葉",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=162"
     },
     {
@@ -5449,8 +5262,6 @@
       "tags": [
         "三期生"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=161"
     },
     {
@@ -5467,8 +5278,6 @@
       "tags": [
         "石森璃花"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=160"
     },
     {
@@ -5486,8 +5295,6 @@
         "山川宇衣",
         "四期生"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=159"
     },
     {
@@ -5504,8 +5311,6 @@
       "tags": [
         "石森璃花"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=158"
     },
     {
@@ -5523,8 +5328,6 @@
         "浅井恋乃未",
         "四期生"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=156"
     },
     {
@@ -5541,8 +5344,6 @@
       "tags": [
         "櫻坂46"
       ],
-      "visit_count": 3,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=155"
     },
     {
@@ -5553,7 +5354,7 @@
       "address": "京都府京都市右京区宇多野嵐山山田線",
       "latitude": 35.01628,
       "longitude": 135.677142,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -5561,8 +5362,6 @@
         "山下瞳月",
         "櫻坂チャンネル"
       ],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=154"
     },
     {
@@ -5581,8 +5380,6 @@
         "山下瞳月",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=153"
     },
     {
@@ -5601,8 +5398,6 @@
         "山下瞳月",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=152"
     },
     {
@@ -5620,8 +5415,6 @@
         "村井優",
         "谷口愛季"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=151"
     },
     {
@@ -5636,8 +5429,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=150"
     },
     {
@@ -5652,8 +5443,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=149"
     },
     {
@@ -5664,7 +5453,7 @@
       "address": "〒171-0014 東京都豊島区池袋２丁目２４−２７",
       "latitude": 35.73308,
       "longitude": 139.703824,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -5673,8 +5462,6 @@
         "東京",
         "池袋"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=148"
     },
     {
@@ -5689,8 +5476,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 3,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=147"
     },
     {
@@ -5710,8 +5495,6 @@
         "東京",
         "渋谷"
       ],
-      "visit_count": 8,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=146"
     },
     {
@@ -5726,8 +5509,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=145"
     },
     {
@@ -5742,8 +5523,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=144"
     },
     {
@@ -5758,8 +5537,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 9,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=143"
     },
     {
@@ -5778,8 +5555,6 @@
         "山下瞳月",
         "櫻坂チャンネル"
       ],
-      "visit_count": 2,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=142"
     },
     {
@@ -5798,8 +5573,6 @@
         "遠藤理子",
         "櫻坂チャンネル"
       ],
-      "visit_count": 2,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=141"
     },
     {
@@ -5818,8 +5591,6 @@
         "村井優",
         "櫻坂チャンネル"
       ],
-      "visit_count": 3,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=140"
     },
     {
@@ -5836,8 +5607,6 @@
       "tags": [
         "小林由依"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=139"
     },
     {
@@ -5855,8 +5624,6 @@
         "守屋麗奈",
         "東京カレンダー"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=138"
     },
     {
@@ -5874,8 +5641,6 @@
         "森田ひかる",
         "東京カレンダー"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=137"
     },
     {
@@ -5893,8 +5658,6 @@
         "藤吉夏鈴",
         "東京カレンダー"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=136"
     },
     {
@@ -5911,8 +5674,6 @@
       "tags": [
         "#藤吉夏鈴"
       ],
-      "visit_count": 2,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=135"
     },
     {
@@ -5931,8 +5692,6 @@
         "谷口愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=134"
     },
     {
@@ -5952,8 +5711,6 @@
         "谷口愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=133"
     },
     {
@@ -5973,8 +5730,6 @@
         "田村保乃",
         "櫻坂チャンネル"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=132"
     },
     {
@@ -5994,8 +5749,6 @@
         "櫻坂チャンネル",
         "そこ曲がったら櫻坂"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=131"
     },
     {
@@ -6014,8 +5767,6 @@
         "谷口愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=130"
     },
     {
@@ -6030,8 +5781,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=129"
     },
     {
@@ -6046,8 +5795,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=128"
     },
     {
@@ -6062,8 +5809,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=127"
     },
     {
@@ -6078,8 +5823,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=126"
     },
     {
@@ -6094,8 +5837,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=125"
     },
     {
@@ -6110,8 +5851,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=124"
     },
     {
@@ -6129,8 +5868,6 @@
         "村井優",
         "引きこもる時間はない"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=123"
     },
     {
@@ -6149,8 +5886,6 @@
         "谷口愛季",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=122"
     },
     {
@@ -6169,8 +5904,6 @@
         "谷口愛季",
         "有吉ぃぃeeeee!"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=121"
     },
     {
@@ -6188,8 +5921,6 @@
         "大園玲",
         "個人pv"
       ],
-      "visit_count": 3,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=120"
     },
     {
@@ -6209,8 +5940,6 @@
         "三期生",
         "的野美青"
       ],
-      "visit_count": 0,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=119"
     },
     {
@@ -6229,8 +5958,6 @@
         "三期生",
         "山下瞳月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=118"
     },
     {
@@ -6248,8 +5975,6 @@
         "櫻坂チャンネル",
         "山川宇衣"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=117"
     },
     {
@@ -6264,8 +5989,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 4,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=116"
     },
     {
@@ -6283,8 +6006,6 @@
         "櫻坂チャンネル",
         "山川宇衣"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=115"
     },
     {
@@ -6302,8 +6023,6 @@
         "山川宇衣",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=114"
     },
     {
@@ -6321,8 +6040,6 @@
         "櫻坂チャンネル",
         "山川宇衣"
       ],
-      "visit_count": 3,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=113"
     },
     {
@@ -6344,8 +6061,6 @@
         "中嶋優月",
         "山下瞳月"
       ],
-      "visit_count": 2,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=112"
     },
     {
@@ -6363,8 +6078,6 @@
         "yuzukigram",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=111"
     },
     {
@@ -6383,8 +6096,6 @@
         "山﨑天",
         "「Nobody's fault」"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=110"
     },
     {
@@ -6405,8 +6116,6 @@
         "森田ひかる",
         "「Nobody's fault」"
       ],
-      "visit_count": 13,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=109"
     },
     {
@@ -6425,8 +6134,6 @@
         "「桜月」",
         "菅井友香"
       ],
-      "visit_count": 10,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=108"
     },
     {
@@ -6445,8 +6152,6 @@
         "「桜月」",
         "菅井友香"
       ],
-      "visit_count": 2,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=107"
     },
     {
@@ -6466,8 +6171,6 @@
         "「Nothing special」",
         "Backs"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=106"
     },
     {
@@ -6487,8 +6190,6 @@
         "「Nothing special」",
         "Backs"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=105"
     },
     {
@@ -6507,8 +6208,6 @@
         "井上梨名",
         "森田ひかる"
       ],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=104"
     },
     {
@@ -6527,8 +6226,6 @@
         "山下瞳月",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=103"
     },
     {
@@ -6546,8 +6243,6 @@
         "reinablog",
         "小田倉麗奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=102"
     },
     {
@@ -6566,8 +6261,6 @@
         "的野美青",
         "山下瞳月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=101"
     },
     {
@@ -6586,8 +6279,6 @@
         "的野美青",
         "山下瞳月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=100"
     },
     {
@@ -6605,8 +6296,6 @@
         "yuzukigram",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=99"
     },
     {
@@ -6624,8 +6313,6 @@
         "yuzukiblog",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=98"
     },
     {
@@ -6644,8 +6331,6 @@
         "yuzukiblog",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=97"
     },
     {
@@ -6660,8 +6345,6 @@
       "source_category": "variety",
       "source_category_label": "バラエティ",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=96"
     },
     {
@@ -6679,8 +6362,6 @@
         "守屋麗奈",
         "櫻坂チャンネル"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=95"
     },
     {
@@ -6697,8 +6378,6 @@
       "tags": [
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=94"
     },
     {
@@ -6715,8 +6394,6 @@
       "tags": [
         "中嶋優月"
       ],
-      "visit_count": 3,
-      "wishlist_count": 5,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=93"
     },
     {
@@ -6734,8 +6411,6 @@
         "櫻坂チャンネル",
         "大園玲"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=92"
     },
     {
@@ -6752,8 +6427,6 @@
       "tags": [
         "谷口愛季"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=91"
     },
     {
@@ -6771,8 +6444,6 @@
         "櫻坂チャンネル",
         "浅井恋乃未"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=90"
     },
     {
@@ -6790,8 +6461,6 @@
         "櫻坂チャンネル",
         "守屋麗奈"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=89"
     },
     {
@@ -6810,8 +6479,6 @@
         "山﨑天",
         "田村保乃"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=88"
     },
     {
@@ -6828,8 +6495,6 @@
       "tags": [
         "#森田ひかる"
       ],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=87"
     },
     {
@@ -6847,8 +6512,6 @@
         "路地裏ホテル",
         "小島凪紗"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=86"
     },
     {
@@ -6866,8 +6529,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=85"
     },
     {
@@ -6885,8 +6546,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=84"
     },
     {
@@ -6904,8 +6563,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=83"
     },
     {
@@ -6923,8 +6580,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 3,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=82"
     },
     {
@@ -6942,8 +6597,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=81"
     },
     {
@@ -6962,8 +6615,6 @@
         "的野美青",
         "山下瞳月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=80"
     },
     {
@@ -6982,8 +6633,6 @@
         "的野美青",
         "山下瞳月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=79"
     },
     {
@@ -7001,8 +6650,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 3,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=78"
     },
     {
@@ -7020,8 +6667,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=77"
     },
     {
@@ -7039,8 +6684,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=76"
     },
     {
@@ -7058,8 +6701,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=75"
     },
     {
@@ -7080,8 +6721,6 @@
         "小島凪紗",
         "松田里奈"
       ],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=74"
     },
     {
@@ -7099,8 +6738,6 @@
         "櫻坂チャンネル",
         "松田里奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 0,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=73"
     },
     {
@@ -7119,8 +6756,6 @@
         "山下瞳月",
         "遠藤理子"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=72"
     },
     {
@@ -7138,8 +6773,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=71"
     },
     {
@@ -7157,8 +6790,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=70"
     },
     {
@@ -7176,8 +6807,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=69"
     },
     {
@@ -7195,8 +6824,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=68"
     },
     {
@@ -7214,8 +6841,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=67"
     },
     {
@@ -7233,8 +6858,6 @@
         "櫻坂チャンネル",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=66"
     },
     {
@@ -7249,8 +6872,6 @@
       "source_category": "variety",
       "source_category_label": "バラエティ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=65"
     },
     {
@@ -7265,8 +6886,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=64"
     },
     {
@@ -7281,8 +6900,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=63"
     },
     {
@@ -7297,8 +6914,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=62"
     },
     {
@@ -7317,8 +6932,6 @@
         "守屋麗奈",
         "小田倉麗奈"
       ],
-      "visit_count": 3,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=61"
     },
     {
@@ -7337,8 +6950,6 @@
         "引きこもる時間はない",
         "MV"
       ],
-      "visit_count": 5,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=60"
     },
     {
@@ -7353,8 +6964,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=59"
     },
     {
@@ -7369,8 +6978,6 @@
       "source_category": "variety",
       "source_category_label": "バラエティ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=58"
     },
     {
@@ -7391,8 +6998,6 @@
         "中嶋優月",
         "I want tomorrow to come"
       ],
-      "visit_count": 3,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=57"
     },
     {
@@ -7407,8 +7012,6 @@
       "source_category": "spot",
       "source_category_label": "スポット",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=56"
     },
     {
@@ -7423,8 +7026,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=55"
     },
     {
@@ -7442,8 +7043,6 @@
         "谷口愛季",
         "I want tomorrow to cone"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=54"
     },
     {
@@ -7458,8 +7057,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 3,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=53"
     },
     {
@@ -7477,8 +7074,6 @@
         "櫻坂チャンネル",
         "増本綺良"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=52"
     },
     {
@@ -7493,8 +7088,6 @@
       "source_category": "gourmet",
       "source_category_label": "グルメ",
       "tags": [],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=51"
     },
     {
@@ -7513,8 +7106,6 @@
         "山下瞳月",
         "櫻坂チャンネル"
       ],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=50"
     },
     {
@@ -7529,8 +7120,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=49"
     },
     {
@@ -7545,8 +7134,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=48"
     },
     {
@@ -7568,8 +7155,6 @@
         "山﨑天",
         "松田里奈"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=47"
     },
     {
@@ -7586,8 +7171,6 @@
       "tags": [
         "東京"
       ],
-      "visit_count": 9,
-      "wishlist_count": 5,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=46"
     },
     {
@@ -7602,8 +7185,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=45"
     },
     {
@@ -7624,8 +7205,6 @@
         "渋谷",
         "四期生"
       ],
-      "visit_count": 14,
-      "wishlist_count": 5,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=44"
     },
     {
@@ -7636,7 +7215,7 @@
       "address": "渋谷区神南一丁目公園通り",
       "latitude": 35.663038,
       "longitude": 139.699397,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -7644,8 +7223,6 @@
         "谷口愛季",
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=43"
     },
     {
@@ -7660,8 +7237,6 @@
       "source_category": "variety",
       "source_category_label": "バラエティ",
       "tags": [],
-      "visit_count": 4,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=42"
     },
     {
@@ -7676,8 +7251,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=41"
     },
     {
@@ -7694,8 +7267,6 @@
       "tags": [
         "中嶋優月"
       ],
-      "visit_count": 0,
-      "wishlist_count": 6,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=40"
     },
     {
@@ -7710,8 +7281,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 2,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=39"
     },
     {
@@ -7729,8 +7298,6 @@
         "ライブ会場",
         "千葉"
       ],
-      "visit_count": 6,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=38"
     },
     {
@@ -7748,8 +7315,6 @@
         "ドローン旋回中",
         "大園玲"
       ],
-      "visit_count": 1,
-      "wishlist_count": 6,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=37"
     },
     {
@@ -7770,8 +7335,6 @@
         "櫻坂チャンネル",
         "宮崎"
       ],
-      "visit_count": 0,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=36"
     },
     {
@@ -7792,8 +7355,6 @@
         "櫻坂チャンネル",
         "宮崎"
       ],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=35"
     },
     {
@@ -7814,8 +7375,6 @@
         "Go To サクラ旅",
         "宮崎"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=34"
     },
     {
@@ -7826,7 +7385,7 @@
       "address": "世田谷区三軒茶屋一丁目栄通り",
       "latitude": 35.642899,
       "longitude": 139.672793,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
@@ -7836,8 +7395,6 @@
         "三軒茶屋",
         "東京"
       ],
-      "visit_count": 3,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=33"
     },
     {
@@ -7858,8 +7415,6 @@
         "櫻坂チャンネル",
         "東京"
       ],
-      "visit_count": 3,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=32"
     },
     {
@@ -7880,8 +7435,6 @@
         "東京",
         "櫻坂チャンネル"
       ],
-      "visit_count": 4,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=31"
     },
     {
@@ -7900,8 +7453,6 @@
         "櫻坂チャンネル",
         "東京"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=30"
     },
     {
@@ -7920,8 +7471,6 @@
         "櫻坂チャンネル",
         "東京"
       ],
-      "visit_count": 2,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=29"
     },
     {
@@ -7941,8 +7490,6 @@
         "守屋麗奈",
         "東京"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=28"
     },
     {
@@ -7957,8 +7504,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=27"
     },
     {
@@ -7973,8 +7518,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=26"
     },
     {
@@ -7989,8 +7532,6 @@
       "source_category": "mv",
       "source_category_label": "MV",
       "tags": [],
-      "visit_count": 3,
-      "wishlist_count": 5,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=25"
     },
     {
@@ -8010,8 +7551,6 @@
         "櫻坂チャンネル",
         "東京"
       ],
-      "visit_count": 0,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=24"
     },
     {
@@ -8029,8 +7568,6 @@
         "村井優",
         "東京"
       ],
-      "visit_count": 4,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=23"
     },
     {
@@ -8041,15 +7578,13 @@
       "address": "目黒区駒場一丁目淡島通り 松見坂",
       "latitude": 35.655612,
       "longitude": 139.689416,
-      "planning_category": "餐厅",
+      "planning_category": "景点",
       "source_category": "cafe",
       "source_category_label": "カフェ",
       "tags": [
         "中嶋優月",
         "東京"
       ],
-      "visit_count": 2,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=22"
     },
     {
@@ -8068,8 +7603,6 @@
         "nothing special",
         "東京"
       ],
-      "visit_count": 1,
-      "wishlist_count": 1,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=21"
     },
     {
@@ -8087,8 +7620,6 @@
         "櫻坂46_何歳の頃に戻りたいのか",
         "山﨑天"
       ],
-      "visit_count": 4,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=20"
     },
     {
@@ -8106,8 +7637,6 @@
         "櫻坂46_MakeorBreak",
         "的野美青"
       ],
-      "visit_count": 0,
-      "wishlist_count": 4,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=19"
     },
     {
@@ -8127,8 +7656,6 @@
         "東京",
         "櫻坂チャンネル"
       ],
-      "visit_count": 4,
-      "wishlist_count": 3,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=18"
     },
     {
@@ -8143,8 +7670,6 @@
       "source_category": "variety",
       "source_category_label": "バラエティ",
       "tags": [],
-      "visit_count": 1,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=17"
     },
     {
@@ -8159,8 +7684,6 @@
       "source_category": "variety",
       "source_category_label": "バラエティ",
       "tags": [],
-      "visit_count": 2,
-      "wishlist_count": 2,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=16"
     },
     {
@@ -8178,8 +7701,6 @@
         "アニラ",
         "5thアニラ"
       ],
-      "visit_count": 24,
-      "wishlist_count": 5,
       "source_url": "https://buddies46.stars.ne.jp/satellite/sakumap/?spot=14"
     }
   ]
