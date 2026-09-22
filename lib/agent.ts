@@ -44,7 +44,23 @@ export function freshContext(): AgentContext {
   };
 }
 
-function normalize(value: unknown) { return String(value ?? "").replace(/\s/g, "").toLowerCase(); }
+function normalize(value: unknown) { return String(value ?? "").normalize("NFKC").replace(/\s/g, "").toLowerCase(); }
+function canonicalArea(value: unknown) {
+  return normalize(value)
+    .replace(/^东京都/, "")
+    .replace(/(?:附近|周边|范围内|范围|一带|区域)$/g, "");
+}
+function canonicalMember(value: unknown) {
+  const cleaned = normalize(value)
+    .replace(/^(?:成员|推し|限定|只看|仅看)/g, "")
+    .replace(/(?:相关的?地点|相关地点|成员|推し|限定|只看|仅看)$/g, "")
+    .replace(/[。,.，、！!？?]/g, "");
+  const aliases: Record<string, string> = {
+    "中岛优月": "中嶋優月", "中岛優月": "中嶋優月",
+    "中嶋优月": "中嶋優月", "中嶋優月": "中嶋優月",
+  };
+  return aliases[cleaned] ?? cleaned;
+}
 function missingFields(state: TripState) { return requiredFields.filter(([key]) => state[key] == null).map(([, label]) => label); }
 function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
   const rad = (v: number) => v * Math.PI / 180; const radius = 6371.0088;
@@ -76,7 +92,7 @@ async function resolveStartPoint(context: AgentContext) {
   const state = context.tripState;
   if (!state.start_point) return { error: "start_point_missing", message: "尚未提供出发地点。" };
   const key = normalize(state.start_point);
-  if (["六本木站", "六本木駅", "六本木"].map(normalize).includes(key)) {
+  if (["六本木站", "六本木车站", "六本木車站", "六本木駅", "六本木"].map(normalize).includes(key)) {
     state.start_latitude = 35.662746; state.start_longitude = 139.731438; state.start_display_name = "六本木站";
     return { status: "resolved", display_name: "六本木站", latitude: state.start_latitude, longitude: state.start_longitude };
   }
@@ -94,15 +110,15 @@ function searchSakumap(context: AgentContext, args: Record<string, any>) {
   const state = context.tripState; const missing = missingFields(state);
   if (missing.length) return { error: "trip_requirements_incomplete", missing_fields: missing, message: "必要信息不完整。" };
   if (state.start_latitude == null || state.start_longitude == null) return { error: "start_point_not_resolved", message: "起点尚未解析。" };
-  let categories = Array.isArray(args.categories) ? [...args.categories] : ["景点"];
-  if (state.need_meal && !categories.includes("餐厅")) categories.push("餐厅");
-  if (!state.need_meal) categories = categories.filter((item) => item !== "餐厅");
+  // 地点类别由已确认的产品状态决定。不能让模型生成的“巡礼地点/景点”等
+  // 同义词直接参与数据库精确匹配，否则会把真实地点错误过滤为 0 条。
+  const categories = state.need_meal ? ["景点", "餐厅"] : ["景点"];
   const max = Math.max(1, Math.min(Number(args.max_results ?? 6), 6));
-  const area = normalize(state.area).replace(/^东京都/, ""); const member = normalize(state.member);
+  const area = canonicalArea(state.area); const member = canonicalMember(state.member);
   const candidates = placeData.flatMap((place): Candidate[] => {
     if (!normalize(place.address).includes(area)) return [];
     const inferred = category(place); if (!categories.includes(inferred)) return [];
-    if (state.member !== "不限" && !(place.tags ?? []).some((tag: string) => normalize(tag) === member)) return [];
+    if (canonicalMember(state.member) !== "不限" && !(place.tags ?? []).some((tag: string) => canonicalMember(tag) === member)) return [];
     const distance = haversine(state.start_latitude!, state.start_longitude!, Number(place.latitude), Number(place.longitude));
     if (distance > 5) return [];
     return [{ id: String(place.id), name: place.name, summary: place.summary, address: place.address,
@@ -193,7 +209,7 @@ async function planItinerary(context: AgentContext) {
 const tools = [
   { type: "function", function: { name: "update_trip_requirements", description: "从用户最新消息提取并保存明确提供的区域、起点、时长、用餐需求和成员偏好。成员没有限制时必须传member为不限。只传用户明确表达的字段。", parameters: { type: "object", properties: { area:{type:"string"}, start_point:{type:"string"}, available_minutes:{type:"integer"}, need_meal:{type:"boolean"}, member:{type:"string"} }, additionalProperties:false } } },
   { type: "function", function: { name: "resolve_start_point", description: "将已保存起点解析为坐标。条件完整后、地点查询前使用。", parameters:{type:"object",properties:{},additionalProperties:false} } },
-  { type: "function", function: { name: "search_sakumap_places", description: "查询起点5公里内的SakuMap巡礼地点。", parameters:{type:"object",properties:{categories:{type:"array",items:{type:"string"}},max_results:{type:"integer"}},required:["categories","max_results"],additionalProperties:false} } },
+  { type: "function", function: { name: "search_sakumap_places", description: "按已保存的区域、成员和用餐需求，查询起点5公里内的SakuMap巡礼地点。地点类别由后端根据行程状态决定。", parameters:{type:"object",properties:{max_results:{type:"integer",minimum:1,maximum:6}},required:["max_results"],additionalProperties:false} } },
   { type: "function", function: { name: "set_ordinary_restaurant_consent", description: "记录用户是否明确同意查询普通餐厅。", parameters:{type:"object",properties:{allowed:{type:"boolean"}},required:["allowed"],additionalProperties:false} } },
   { type: "function", function: { name: "search_ordinary_restaurants", description: "获得用户同意后查询普通餐厅。", parameters:{type:"object",properties:{},additionalProperties:false} } },
   { type: "function", function: { name: "plan_walking_itinerary", description: "依据真实步行矩阵选择路线并返回地图线路。", parameters:{type:"object",properties:{},additionalProperties:false} } },
