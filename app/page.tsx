@@ -4,7 +4,7 @@ import { MessageContent } from "./message-content";
 import { FormEvent, useEffect, useRef, useState } from "react";
 
 type Message = { role: "user" | "assistant"; content: string };
-const emptyContext={messages:[] as Message[],candidates:[],route:null,tripState:{area:null,start_point:null,available_minutes:null,need_meal:null,member:"不限",member_explicit:false,start_latitude:null,start_longitude:null,start_display_name:null,ordinary_restaurant_consent:null}};
+const emptyContext={messages:[] as Message[],candidates:[],route:null,tripState:{area:null,start_point:null,available_minutes:null,need_meal:null,member:"不限",member_explicit:false,member_selection_requested:false,start_latitude:null,start_longitude:null,start_display_name:null,ordinary_restaurant_consent:null}};
 
 function MapView({route}:{route:any}){
   const mapRef=useRef<any>(null);const layersRef=useRef<any[]>([]);

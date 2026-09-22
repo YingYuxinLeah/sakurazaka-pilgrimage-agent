@@ -8,6 +8,7 @@ export type TripState = {
   need_meal: boolean | null;
   member: string;
   member_explicit: boolean;
+  member_selection_requested: boolean;
   start_latitude: number | null;
   start_longitude: number | null;
   start_display_name: string | null;
@@ -38,7 +39,7 @@ export function freshContext(): AgentContext {
     messages: [], candidates: [], route: null,
     tripState: {
       area: null, start_point: null, available_minutes: null, need_meal: null,
-      member: "不限", member_explicit: false, start_latitude: null,
+      member: "不限", member_explicit: false, member_selection_requested: false, start_latitude: null,
       start_longitude: null, start_display_name: null,
       ordinary_restaurant_consent: null,
     },
@@ -62,7 +63,7 @@ function canonicalMember(value: unknown) {
   };
   return aliases[cleaned] ?? cleaned;
 }
-export function missingFields(state: TripState) { const fields = requiredFields.filter(([key]) => state[key] == null).map(([, label]) => label); if (!state.member_explicit) fields.push("是否限定成员"); return fields; }
+export function missingFields(state: TripState) { const fields = requiredFields.filter(([key]) => state[key] == null).map(([, label]) => label); if (!state.member_explicit) fields.push(state.member_selection_requested ? "具体成员姓名" : "是否限定成员"); return fields; }
 function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
   const rad = (v: number) => v * Math.PI / 180; const radius = 6371.0088;
   const dLat = rad(lat2 - lat1); const dLon = rad(lon2 - lon1);
@@ -90,7 +91,11 @@ export function updateRequirements(context: AgentContext, args: Record<string, a
       state.start_latitude = null; state.start_longitude = null; state.start_display_name = null;
     }
     (state as any)[key] = args[key];
-    if (key === "member") state.member_explicit = true;
+    if (key === "member") { state.member_explicit = true; state.member_selection_requested = false; }
+  }
+  if (args.member_selection_requested === true && !args.member) {
+    state.member = "不限"; state.member_explicit = false; state.member_selection_requested = true;
+    context.candidates = []; context.route = null; state.ordinary_restaurant_consent = null;
   }
   const missing = missingFields(state);
   return { status: missing.length ? "incomplete" : "complete", trip_state: state, missing_fields: missing };
@@ -230,7 +235,7 @@ async function planItinerary(context: AgentContext) {
 }
 
 const tools = [
-  { type: "function", function: { name: "update_trip_requirements", description: "从用户最新消息提取并保存明确提供的区域、起点、时长、用餐需求和成员偏好。成员没有限制时必须传member为不限。只传用户明确表达的字段。", parameters: { type: "object", properties: { new_trip:{type:"boolean",description:"用户明确要重新开始一条行程时为true。"}, keep_other_conditions:{type:"boolean",description:"仅当用户明确表示其他条件不变时为true。"}, area:{type:"string"}, start_point:{type:"string"}, available_minutes:{type:"integer"}, need_meal:{type:"boolean"}, member:{type:"string"} }, additionalProperties:false } } },
+  { type: "function", function: { name: "update_trip_requirements", description: "从用户最新消息提取并保存明确提供的区域、起点、时长、用餐需求和成员偏好。成员没有限制时必须传member为不限。只传用户明确表达的字段。", parameters: { type: "object", properties: { new_trip:{type:"boolean",description:"用户明确要重新开始一条行程时为true。"}, keep_other_conditions:{type:"boolean",description:"仅当用户明确表示其他条件不变时为true。"}, area:{type:"string"}, start_point:{type:"string"}, available_minutes:{type:"integer"}, need_meal:{type:"boolean"}, member:{type:"string",description:"具体成员姓名或不限，不得填写限定成员等意向词。"}, member_selection_requested:{type:"boolean",description:"用户想限定成员但尚未提供姓名时传true，不要猜测姓名。"} }, additionalProperties:false } } },
   { type: "function", function: { name: "resolve_start_point", description: "将已保存起点解析为坐标。条件完整后、地点查询前使用。", parameters:{type:"object",properties:{},additionalProperties:false} } },
   { type: "function", function: { name: "search_sakumap_places", description: "按已保存的区域、成员和用餐需求，查询起点5公里内的SakuMap巡礼地点。地点类别由后端根据行程状态决定。", parameters:{type:"object",properties:{max_results:{type:"integer",minimum:1,maximum:6}},required:["max_results"],additionalProperties:false} } },
   { type: "function", function: { name: "set_ordinary_restaurant_consent", description: "记录用户是否明确同意查询普通餐厅。", parameters:{type:"object",properties:{allowed:{type:"boolean"}},required:["allowed"],additionalProperties:false} } },
@@ -244,7 +249,7 @@ const handlers: Record<string, (context:AgentContext,args:any)=>any> = {
   search_ordinary_restaurants: searchOrdinaryRestaurants, plan_walking_itinerary: planItinerary,
 };
 
-const systemPrompt = `本产品目前规划东京范围的步行巡礼。成员未明确时必须补问一次是否限定成员，不能自行设为不限。用户转到另一个区域且未说其他条件不变时，只提取本条消息给出的字段，不能从旧对话补回起点、时间、用餐或成员；后端会清空旧行程。明确说重新规划时使用new_trip；仅明确要求其他条件不变时才使用keep_other_conditions。半日按4小时估算须说明。起点解析失败必须澄清，不得继续检索或编造坐标。空结果只能说当前数据与筛选范围未检索到，附更新时间，不能断言该区域没有。活动日期若已过期须说明历史关联，不承诺营业。路线成功后只简短解释关键结论和下一步，详细行程已由网页卡片展示，无需重复整张表格。你是坂道圣地巡礼规划助手。用户提供或修改条件时先调用update_trip_requirements；必须理解同义表达和上下文，不得要求用户重复已经保存的条件。用户说成员不限、没有限制、不限定成员时，member必须设为“不限”，覆盖旧成员。信息不全时只补问missing_fields。条件完整后依次解析起点、查询地点并规划路线。没有巡礼餐厅时必须先征得同意，后端也会校验。只能依据工具结果回答，不得编造地点。路线成功后用简洁自然语言说明，并在结果过少时询问是否放宽成员限制。禁止向用户输出工具名、内部字段、JSON或英文变量名。`;
+const systemPrompt = `本产品目前规划东京范围的步行巡礼。成员未明确时必须补问一次是否限定成员，不能自行设为不限。用户想限定但没说姓名时调用update_trip_requirements传member_selection_requested=true，接着问想去哪一位成员去过的地方；不能把限定意向当作姓名。用户转到另一个区域且未说其他条件不变时，只提取本条消息给出的字段，不能从旧对话补回起点、时间、用餐或成员；后端会清空旧行程。明确说重新规划时使用new_trip；仅明确要求其他条件不变时才使用keep_other_conditions。半日按4小时估算须说明。起点解析失败必须澄清，不得继续检索或编造坐标。空结果只能说当前数据与筛选范围未检索到，附更新时间，不能断言该区域没有。活动日期若已过期须说明历史关联，不承诺营业。路线成功后只简短解释关键结论和下一步，详细行程已由网页卡片展示，无需重复整张表格。你是坂道圣地巡礼规划助手。用户提供或修改条件时先调用update_trip_requirements；必须理解同义表达和上下文，不得要求用户重复已经保存的条件。用户说成员不限、没有限制、不限定成员时，member必须设为“不限”，覆盖旧成员。信息不全时只补问missing_fields。条件完整后依次解析起点、查询地点并规划路线。没有巡礼餐厅时必须先征得同意，后端也会校验。只能依据工具结果回答，不得编造地点。路线成功后用简洁自然语言说明，并在结果过少时询问是否放宽成员限制。禁止向用户输出工具名、内部字段、JSON或英文变量名。`;
 
 function publicState(state: TripState) {
   const values: Array<{key:string;label:string;value:string}> = [];
@@ -266,6 +271,36 @@ function quickReplies(context: AgentContext, last: any) {
   return [];
 }
 
+// 仅处理无歧义的独立短答；混合条件、假设句和自由表达仍交给模型。
+export function applyExplicitReply(context: AgentContext, message: string) {
+  const text = normalize(message).replace(/[。！!，,？?]/g, "");
+  if (/^(?:我)?(?:不需要(?:安排)?用餐|不用(?:安排)?(?:用餐|吃饭)|不吃饭|不要安排用餐)$/.test(text)) {
+    updateRequirements(context, {need_meal:false}); return true;
+  }
+  if (/^(?:我)?(?:需要(?:安排)?用餐|要吃饭|安排用餐)$/.test(text)) {
+    updateRequirements(context, {need_meal:true}); return true;
+  }
+  if (/^(?:我)?(?:想|要|需要)?(?:限定|限制|指定)成员$/.test(text)) {
+    updateRequirements(context, {member_selection_requested:true}); return true;
+  }
+  if (/^(?:成员不限|不限成员|不限定成员|成员没有限制|放宽成员限制)$/.test(text)) {
+    updateRequirements(context, {member:"不限"}); return true;
+  }
+  return false;
+}
+export function clarificationMessage(state: TripState) {
+  const missing = missingFields(state);
+  const questions = missing.filter(field => field !== "是否限定成员" && field !== "具体成员姓名");
+  const parts = questions.length ? [`还需要确认：${questions.join("、")}。`] : [];
+  if (missing.includes("具体成员姓名")) parts.push("你想去哪一位成员去过的地方？请告诉我成员姓名。");
+  else if (missing.includes("是否限定成员")) parts.push("是否限定成员？可以选择成员不限，也可以告诉我具体姓名。");
+  return parts.join("\n\n");
+}
+function finishTurn(context: AgentContext, assistant: string, last: any = null) {
+  context.messages.push({role:"assistant",content:assistant});
+  return {assistant,tripState:publicState(context.tripState),quickReplies:quickReplies(context,last),route:context.route,context};
+}
+
 export async function runAgent(message: string, incoming?: Partial<AgentContext>) {
   const apiKey = process.env.DASHSCOPE_API_KEY; if (!apiKey) throw new Error("服务端尚未配置模型密钥");
   const base = freshContext(); const context: AgentContext = {
@@ -284,7 +319,11 @@ export async function runAgent(message: string, incoming?: Partial<AgentContext>
   if (/(?:成员|偶像|推し).{0,6}(?:不限|没有限制|不限制|不限定|放宽)|(?:不限|不限制|不限定).{0,6}(?:成员|偶像|推し)/i.test(message)) {
     updateRequirements(context, { member: "不限" });
   }
+  const explicitReply = applyExplicitReply(context, message);
   context.messages.push({role:"user",content:message}); let last:any = null;
+  if (explicitReply && missingFields(context.tripState).length) {
+    return finishTurn(context, clarificationMessage(context.tripState));
+  }
   const modelMessages:any[] = [{role:"system",content:`${systemPrompt}\n当前已保存条件：${JSON.stringify(context.tripState)}`}, ...context.messages];
   for (let step=0; step<10; step++) {
     const response = await fetch("https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions", { method:"POST", headers:{"Content-Type":"application/json",Authorization:`Bearer ${apiKey}`}, body:JSON.stringify({model:"qwen3.7-plus",messages:modelMessages,tools,tool_choice:"auto",temperature:0}) });
@@ -292,8 +331,8 @@ export async function runAgent(message: string, incoming?: Partial<AgentContext>
     if (!output) throw new Error("模型没有返回有效内容");
     if (!output.tool_calls?.length) {
       const missing=missingFields(context.tripState);
-      const assistant = missing.length ? `还需要确认：${missing.join("、")}。${missing.includes("是否限定成员")?"成员可以选“不限”，也可以告诉我具体姓名。":""}` : output.content || "本轮已完成。"; context.messages.push({role:"assistant",content:assistant});
-      return { assistant, tripState: publicState(context.tripState), quickReplies: quickReplies(context,last), route: context.route, context };
+      const assistant = missing.length ? clarificationMessage(context.tripState) : output.content || "本轮已完成。";
+      return finishTurn(context, assistant, last);
     }
     modelMessages.push({role:"assistant",content:output.content ?? "",tool_calls:output.tool_calls});
     for (const call of output.tool_calls) {
