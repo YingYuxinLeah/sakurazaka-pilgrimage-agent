@@ -2,7 +2,7 @@
 
 > 面向中国櫻坂46粉丝的多轮路线规划产品：把“想在港区巡礼半天、从六本木站出发、只看某位成员相关地点”等自然语言需求，转化为可执行的地点组合、步行顺序和地图路线。
 
-[在线限量 Demo](https://sakamichi-pilgrimage-agent.yuxinying941.chatgpt.site) · [🎬 产品演示]（https://youtu.be/pziU0P29Zjs）·[完整产品案例](docs/product-case-study.md) · [Agent 设计](docs/agent-design.md) · [评测报告](docs/evaluation.md)
+[在线限量 Demo](https://sakamichi-pilgrimage-agent.yuxinying941.chatgpt.site) ·[🎬 产品演示](https://youtu.be/pziU0P29Zjs)·[完整产品案例](docs/product-case-study.md) · [Agent 设计](docs/agent-design.md) · [评测报告](docs/evaluation.md)
 
 ## 产品介绍
 
@@ -20,7 +20,7 @@
 
 ### 产品演示视频
 
-[![櫻坂圣地巡礼路线规划 Agent 产品演示](https://img.youtube.com/vi/abc123XYZ/maxresdefault.jpg)](https://www.youtube.com/watch?v=pziU0P29Zjs)
+[![櫻坂圣地巡礼路线规划 Agent 产品演示](https://img.youtube.com/vi/pziU0P29Zjs/hqdefault.jpg)](https://youtu.be/pziU0P29Zjs)
 
 
 ### 核心流程 GIF
@@ -34,7 +34,7 @@
 → 在时间预算内生成可执行路线  
 → 地图可视化
 
-## 产品经理视角：关键决策
+## 关键决策
 
 | 产品问题 | 决策 | 原因 |
 | --- | --- | --- |
